@@ -1,0 +1,27 @@
+Name :: Soumya Kariveda
+Roll No :: IMT2016053
+Email ID :: Soumya.Kariveda@iiitb.org
+
+COMPILE::
+1. $gcc server.c -o server
+2. $gcc client.c -o client
+
+RUN::
+1. $./server  ---  first in one terminal
+2. $./client  ---  in the other terminal
+
+NOTE:: Use data.c to load the data into the files
+
+DETAILS ::
+The project aims to develop a banking system that is user-friendly and multi-functional.
+Project build using the socket between the client and the server.The server is concurrent.
+
+CLIENT::
+1.You have three options : Normal User login, Joint User login, Admin login.
+2.Login with your credentials.
+3.If successful you get different options then you choose one of them to perform its action.
+
+SERVER::
+1.The server checks the login credentials entered by the client and sends the notification.
+2.Performs the actions chose by the client.
+3.Implements suitable write and read locks when required.
